@@ -516,6 +516,10 @@ html{
     #menu-icon{
         display: block;
     }
+    body {
+    user-select: none;
+}
+
     .navbar{
         position: absolute;
         top: 100%;
