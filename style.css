@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
     font-family: "poppins",sans-serif;
 }
+/* Prevent text selection for the whole document */
+body {
+    user-select: none;
+}
 
 :root{
     --bg-color: #111111;
